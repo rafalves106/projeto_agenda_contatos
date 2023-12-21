@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Editando estrutura do conteúdo */
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Editando Cabeçalho */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: azure;
+    border-radius: 12px;
+    margin-bottom: 26px;
+}
+
+header img {
+    height: 40px;
+}
+
+h1, h2 {
+    color: #177DE2;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Editando Formulário */
+
+.add-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+form input {
+    width: 280px;
+    padding: 12px 16px;
+    border: 1px solid;
+    background-color: azure;
+    border-radius: 12px;
+    border-color: #177DE2;
+    outline-color: #177DE2;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+form input#btn-add {
+    width: 120px;
+    background-color: #177DE2;
+    color: white;
+    border-radius: 12px;
+    margin: 0;
+}
+
+/* Editando Tabela */
+
+table {
+    display: block;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247) ;
+    padding: 30px 30px;
+    border-radius: 12px;
+    width: 100%;
+    border-collapse: separate;
+}
+
+thead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+    font-size: 24px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bolder;
+    color: #333333;
+}
+
+thead tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+}
+
+tbody {
+    display: block;
+    justify-content: space-between;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: normal;
+}
+
+tbody tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    margin-bottom: 16px;
+}
+
+tbody td {
+    padding-bottom: 3px;
+    border-bottom: 1px dotted #33333333
+}
