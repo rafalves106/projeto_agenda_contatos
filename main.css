@@ -132,5 +132,13 @@ tbody tr {
 
 tbody td {
     padding-bottom: 3px;
-    border-bottom: 1px dotted #33333333
+    border-bottom: 1px dotted #33333333;
+    align-items: baseline;
+    display: flex;
+}
+
+#btn-edit, #btn-delete {
+    height: 12px;
+    margin-left: 10px;
+    cursor: pointer;
 }

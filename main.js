@@ -18,6 +18,8 @@ form.addEventListener('submit', function(e){
 function adicionaLinha(){
     const nomeContato = document.getElementById('name');
     const numeroContato = document.getElementById('number');
+    const botaoEdit = document.getElementById('btn-edit')
+    const botaoDelete = document.getElementById('btn-delete')
 
     if (numeros.includes(numeroContato.value)) {
         alert('Já existe um contato com o mesmo número!')
@@ -28,7 +30,7 @@ function adicionaLinha(){
         const numeroFormatado = formatarNumero(numeroContato.value);
 
         let linha = '<tr>'
-        linha += `<td>${nomeContato.value}</td>`;
+        linha += `<td>${nomeContato.value} ${botaoEdit.outerHTML} ${botaoDelete.outerHTML}</td>`;
         linha += `<td>${numeroFormatado}</td>`;
         linha += '</tr>'
     
