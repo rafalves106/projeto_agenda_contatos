@@ -33,6 +33,27 @@ h1, h2 {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-toggle {
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rotacionando {
+    transform: rotate(45deg);
+}
+
+.add-contact {
+    display: none;
+}
+
 /* Editando Formulário */
 
 .add-contact {
@@ -61,6 +82,7 @@ form input#btn-add {
     color: white;
     border-radius: 12px;
     margin: 0;
+    cursor: pointer;
 }
 
 /* Editando Tabela */

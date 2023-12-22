@@ -52,3 +52,11 @@ function formatarNumero(numero) {
     const numeroLimpo = numero.replace(/\D/g, '');
     return `(${numeroLimpo.substring(0, 2)}) ${numeroLimpo.substring(2, 7)}-${numeroLimpo.substring(7)}`;
 }
+
+$(document).ready(function() {
+    $('.add-contact').hide()
+    $('#btn-toggle').click(function() {
+        $(this).toggleClass('rotacionando');
+        $('.add-contact').slideToggle();
+    });
+});
