@@ -142,3 +142,7 @@ tbody td {
     margin-left: 10px;
     cursor: pointer;
 }
+
+#btn-contact {
+    display: none;
+}
